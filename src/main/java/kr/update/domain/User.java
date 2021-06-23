@@ -1,5 +1,6 @@
-package kr.update.entities;
+package kr.update.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -11,7 +12,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class User {
 
-    private String id;
+    private int id;
     private String username;
 
     private String name;
